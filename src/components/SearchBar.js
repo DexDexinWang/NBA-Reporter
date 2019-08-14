@@ -28,7 +28,7 @@ export class SearchBar extends React.Component {
         const { dataSource } = this.state;
         const options = dataSource.map(player => (
             <Option key={player.fullName} value={player.fullName} className="player-option">
-                <img className="player-option-image" src={`${PROFILE_PIC_URL_PREFIX}/${player.playerId}.png`}/>
+                <img className="player-option-image" alt="face" src={`${PROFILE_PIC_URL_PREFIX}/${player.playerId}.png`}/>
                 <span className="player-option-label">{player.fullName}</span>
             </Option>
         ));
