@@ -14,7 +14,7 @@ export class Main extends React.Component {
     }
 
     componentDidMount() {
-        this.loadPlayerInfo('Jordan Mickey');
+        this.loadPlayerInfo('James Harden');
     }
 
     loadPlayerInfo = (playerName) => {
